@@ -1,0 +1,27 @@
+helpful things I wrote for rev the VM
+
+vanilla lua positions:
+
+POS_OP = 0
+POS_A = 6
+POS_C = 6 + 8
+POS_B = 6 + 8 + 9
+POS_Bx = 6 + 8
+
+
+0xABACADED	:	dummy instruction disassembly:
+
+1010 101	1 1010 11	00 1010 110	1 1110 1101
+
+OPCODE		  ARG(A)         ARG(C)		   ARG(B)
+
+				     ARG(Bx) & ARG(sBx)
+
+
+>> 18 = GETARG_A
+
+& 0x1FF = GETARG_B
+
+& 0x3FE00 = GETARG_C
+
+& 0x3FFFF = GETARG_Bx & GETARG_sBx

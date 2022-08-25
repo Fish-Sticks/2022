@@ -1,2 +1,2 @@
 # 2022
-4 sources I have made within 2022, each one showing slightly more improvement than the last.
+My work from 2022, I made major improvements this year.
